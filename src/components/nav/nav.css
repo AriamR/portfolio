@@ -1,0 +1,49 @@
+nav {
+    background: rgba(0,0,0,0.3);
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 30px;
+    top: 42%;
+    transform: translate(3px, -30%);
+    padding: 15px 10px;
+    justify-content: center;
+    gap: 23px;
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+    background:transparent;
+    color:white;
+    border-radius:50%;
+    font-size: 1.1rem;
+    padding: 0.5em;
+}
+
+nav a:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+nav a.active {
+    background:#1f1f38;
+    color:#fff;
+}
+
+/* ------- MEDIA QUERIES----*/
+
+@media screen and (max-width: 840px){
+    nav {
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 838px){
+    nav {
+        flex-direction: row;
+        left: 97px;
+        padding: 12px 25px;
+        top:7%;
+    }
+}

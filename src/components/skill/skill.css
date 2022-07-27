@@ -1,0 +1,32 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.skill{
+    padding:4em 0em;
+}
+.skill-tool{
+    display: flex;
+    justify-content: center;
+    padding: 2em 4em 0em 8em;
+}
+
+.skill-tools{
+    width: 30%;
+    padding: 0.5em 0em;
+}
+
+.skill-tool-div{
+    margin: 2.5em; 
+    text-align: center;
+    background: #088181fc;
+    padding: 1.5em 0em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px #0b3760ad;
+    transform: scale(.8);
+    transition:.5s;
+    
+}
+
+.slick-slide img {
+    display: unset;
+}

@@ -1,0 +1,120 @@
+.portfolio-p{
+    padding: 8em 0em;
+}
+
+.project-ly{
+    font-size: 35px;
+    padding-left: 5em;
+}
+
+.portfolio{
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 5em;
+}
+
+.portfolio_img {
+    padding-bottom: 2em;
+}
+
+
+.portfolio_img figure{
+    overflow:hidden;
+    text-align: center;
+    position: relative;
+    cursor:pointer;
+    width: 326px;
+    height: 270px;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px #00000082;
+}
+
+
+.portfolio_img  figure .portfolio-images{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+
+}
+
+.portfolio_img figure .portfolio_image {
+    position: absolute;
+    z-index:1000;
+    top:0;left:0;right:0;bottom:0;   
+}
+
+.portfolio_img figure .portfolio_image1 {
+    position: absolute;
+    z-index:1000;
+    top:0;left:0;right:0;bottom:0;   
+}
+
+.port-ly1{
+    overflow: hidden;
+}
+
+.portfolio_image .port-ly{
+    position:absolute;
+    text-transform: uppercase;
+    padding: 7px;
+    z-index:1000;
+    top:50%;left:-80%;
+    color:white;
+    transition:all 0.7s;
+    -ms-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+
+}
+
+.portfolio_img figure:hover > .portfolio_image .port-ly{
+    background-color: #808080b8;
+    left: 0px;
+    box-shadow: 1px 5px 5px #121b20e0;
+    border-radius: 2px;
+}
+
+.portfolio_image1 .port-ly1{
+    position:absolute;
+    text-transform: uppercase;
+    padding: 7px;
+    z-index:1000;
+    top:50%;right:-80%;
+    color:white;
+    transition:all 0.7s;
+    -ms-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+
+}
+
+.portfolio_img figure:hover > .portfolio_image1 .port-ly1{
+    background-color: #808080b8;
+    right: 0px;
+    box-shadow: 1px 5px 5px #121b20e0;
+    border-radius: 2px;
+}
+
+
+.enlace{
+    cursor: pointer;
+    border: 2px solid rgb(28 98 139);
+    text-decoration: none;
+    padding: 0.4em;
+    font-size: 18px;
+    color: rgb(28 98 139);
+    border-radius: 5px;
+    margin: 2em;
+    box-shadow: 1px 0px 3px;
+    font-weight: 800;
+ 
+}
+
+
+article{
+    background: #131111c4;
+    height: 22em;
+    border-radius: 5px;
+    box-shadow: 2px 5px 8px black;
+}
