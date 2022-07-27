@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#" className="active"><FaHome/></a>
+      <a href="#"><FaHome/></a>
       <a href="#about"><FaUserTie/></a>
       <a href="#skill"><MdOutlineComputer/></a>
       <a href="#project"><RiCodeBoxLine/></a>
