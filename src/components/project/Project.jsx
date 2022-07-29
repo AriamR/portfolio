@@ -50,7 +50,7 @@ const Project = () => {
                     <img className="portfolio-images" src={image} alt={DataTransferItemList}/>
                       <div className="items-description"> 
                         <h4 className='card-title'>{title}</h4>
-                        <p>{description}</p>
+                        <p className="card-p">{description}</p>
                       </div>
                   </figure>  
                 </div>

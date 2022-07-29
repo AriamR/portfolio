@@ -20,14 +20,10 @@
     padding-bottom: 2em;
 }
 
-img{
-    object-fit: cover;
-}
 
 .portfolio_img figure{
     overflow:hidden;
     text-align: center;
-    position: relative;
     cursor:pointer;
     width: 326px;
     height: 270px;
@@ -36,6 +32,14 @@ img{
     background: linear-gradient(hsl(0 50% 4% /0), hsl(0 0% 0% /10));
 }
 
+.portfolio-images{
+    width: 100%;
+    height: 39vh;
+}
+
+.portfolio-images:hover{
+    opacity:0.2;
+}
 
 /* other styles*/
 
@@ -54,25 +58,33 @@ img{
 }
 
 .items-description{
-    color: #e5dbdb;
+    color: #e8e3e3;
+    visibility: hidden;
     font-family: revert;
     font-weight: 400;
+    box-shadow: 1px 3px 8px #6b6464;
     font-size: 18px;
     position: absolute;
     padding: 1em 0.8em;
-    height: 108px;
-    bottom: 49%;
+    height: 28vh;
+    border-radius: 5px;
+    bottom: 23%;
     overflow: hidden;
-    transform: translateY(100px);
-    padding: 1em 0.8em;
-    background: linear-gradient(hsl(200deg 5% 41% / 62%), hsl(0deg 25% 6% / 79%) 20% , hsl(221deg 15% 17% / 63%));
+    transform: translateX(100px);
+    padding: 4em 0.8em 0 0.8em;
+    background: linear-gradient(hsl(200deg 25% 48% / 81%), hsl(224deg 90% 11% / 92%) 20% , hsl(221deg 81% 15% / 50%));
 
 }
 
 
-.items-description:hover{
-    
-    transform:translateY(0%)
+.portfolio_img figure:hover .items-description{
+    visibility: visible;
+    transform:translateX(0%)
+}
+
+.card-p{
+    font-size:18px;
+    padding-top: 1em;
 }
 
 .enlace{

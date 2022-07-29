@@ -33,17 +33,26 @@ nav a.active {
 
 /* ------- MEDIA QUERIES----*/
 
-@media screen and (max-width: 840px){
-    nav {
-        left: 24px;
-    }
-}
+
 
 @media screen and (max-width: 838px){
     nav {
         flex-direction: row;
-        left: 97px;
+        left: 205px;
         padding: 12px 25px;
         top:7%;
     }
+
+    .container-lyrics{
+        width: 79%;
+    }
+}
+
+@media screen and (max-width: 655px){
+    nav {
+       
+        left: 125px;
+    }
+
+    
 }
