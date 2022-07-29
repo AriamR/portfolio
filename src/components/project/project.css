@@ -20,6 +20,9 @@
     padding-bottom: 2em;
 }
 
+img{
+    object-fit: cover;
+}
 
 .portfolio_img figure{
     overflow:hidden;
@@ -30,72 +33,47 @@
     height: 270px;
     border-radius: 6px;
     box-shadow: 2px 3px 5px #00000082;
+    background: linear-gradient(hsl(0 50% 4% /0), hsl(0 0% 0% /10));
 }
 
 
-.portfolio_img  figure .portfolio-images{
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
+/* other styles*/
+
+.contentItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+}
+
+.article:hover{
+    transform: scale(1.05)
 
 }
 
-.portfolio_img figure .portfolio_image {
+.items-description{
+    color: #e5dbdb;
+    font-family: revert;
+    font-weight: 400;
+    font-size: 18px;
     position: absolute;
-    z-index:1000;
-    top:0;left:0;right:0;bottom:0;   
-}
-
-.portfolio_img figure .portfolio_image1 {
-    position: absolute;
-    z-index:1000;
-    top:0;left:0;right:0;bottom:0;   
-}
-
-.port-ly1{
+    padding: 1em 0.8em;
+    height: 108px;
+    bottom: 49%;
     overflow: hidden;
-}
-
-.portfolio_image .port-ly{
-    position:absolute;
-    text-transform: uppercase;
-    padding: 7px;
-    z-index:1000;
-    top:50%;left:-80%;
-    color:white;
-    transition:all 0.7s;
-    -ms-transition:all 0.7s;
-    -moz-transition:all 0.7s;
+    transform: translateY(100px);
+    padding: 1em 0.8em;
+    background: linear-gradient(hsl(200deg 5% 41% / 62%), hsl(0deg 25% 6% / 79%) 20% , hsl(221deg 15% 17% / 63%));
 
 }
 
-.portfolio_img figure:hover > .portfolio_image .port-ly{
-    background-color: #808080b8;
-    left: 0px;
-    box-shadow: 1px 5px 5px #121b20e0;
-    border-radius: 2px;
+
+.items-description:hover{
+    
+    transform:translateY(0%)
 }
-
-.portfolio_image1 .port-ly1{
-    position:absolute;
-    text-transform: uppercase;
-    padding: 7px;
-    z-index:1000;
-    top:50%;right:-80%;
-    color:white;
-    transition:all 0.7s;
-    -ms-transition:all 0.7s;
-    -moz-transition:all 0.7s;
-
-}
-
-.portfolio_img figure:hover > .portfolio_image1 .port-ly1{
-    background-color: #808080b8;
-    right: 0px;
-    box-shadow: 1px 5px 5px #121b20e0;
-    border-radius: 2px;
-}
-
 
 .enlace{
     cursor: pointer;

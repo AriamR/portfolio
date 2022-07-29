@@ -32,13 +32,15 @@ const data = [
     description:"weather application which uses a third-party api to display weather data by date and location of a city anywhere in the world made with reactjs."
 
   }
+  
 ]
 
 const Project = () => {
+  
   return (
     <div id="project" className="portfolio-p">
       <h3 className='project-ly'>Proyects</h3>
-        <div className="portfolio">
+        <div className="contentItem">
         {
           data.map(({id,image,title,github,demo,description}) =>{
             return(
@@ -46,14 +48,12 @@ const Project = () => {
                 <div className="portfolio_img">
                   <figure>
                     <img className="portfolio-images" src={image} alt={DataTransferItemList}/>
-                      <div className="portfolio_image"> 
-                        <p className='port-ly'>{title}</p>
-                       
+                      <div className="items-description"> 
+                        <h4 className='card-title'>{title}</h4>
+                        <p>{description}</p>
                       </div>
-                     
                   </figure>  
                 </div>
-              
                 <a className="enlace" href={github} target="_blank" rel="noopener noreferrer">Github</a>
                 <a className="enlace" href={demo} target="_blank" rel="noopener noreferrer">Live Demo</a>
               </article>
@@ -66,3 +66,22 @@ const Project = () => {
 }
 
 export default Project
+
+/*{
+  id:4,
+  image: IMG3,
+  title:"Portfolio",
+  github: "https://github.com/AriamR/weatherApp",
+  demo:"https://weatherapplicationreact.herokuapp.com/",
+  description:"weather application which uses a third-party api to display weather data by date and location of a city anywhere in the world made with reactjs."
+
+},
+{
+  id:5,
+  image: IMG3,
+  title:"Portfolio",
+  github: "https://github.com/AriamR/weatherApp",
+  demo:"https://weatherapplicationreact.herokuapp.com/",
+  description:"weather application which uses a third-party api to display weather data by date and location of a city anywhere in the world made with reactjs."
+
+}*/
