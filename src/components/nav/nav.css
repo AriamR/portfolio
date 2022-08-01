@@ -39,8 +39,9 @@ nav a.active {
     nav {
         flex-direction: row;
         left: 205px;
-        padding: 12px 25px;
-        top:7%;
+        padding: 11px 25px;
+        top: 7%;
+        z-index: 1;
     }
 
     .container-lyrics{
@@ -51,7 +52,23 @@ nav a.active {
 @media screen and (max-width: 655px){
     nav {
        
-        left: 125px;
+        left: 59px; 
+    }
+
+    .container-lyrics-1{
+        padding: 7em 3em;
+    }
+
+    .profile{
+        width: 117%;
+    }
+
+    .skill-tool{
+        padding: 2em 4em 0em 5em;
+    }
+
+    .container-lyrics{
+        width: 91%;
     }
 
     

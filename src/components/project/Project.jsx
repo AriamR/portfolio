@@ -12,7 +12,7 @@ const data = [
     title:"Calculator Website",
     github: "",
     demo:"https://ProyectoBootcamp.maira8.repl.co",
-    description:"sitio web creado con html,css,javascript con calculadora con funcionalidades clásicas"
+    description:"Website created with html, css, javascript with calculator with classic features"
 
   },
   {
@@ -25,6 +25,22 @@ const data = [
 
   },{
     id:3,
+    image: IMG3,
+    title:"WeatherApp",
+    github: "https://github.com/AriamR/weatherApp",
+    demo:"https://weatherapplicationreact.herokuapp.com/",
+    description:"weather application which uses a third-party api to display weather data by date and location of a city anywhere in the world made with reactjs."
+
+  },{
+    id:4,
+    image: IMG3,
+    title:"Portfolio",
+    github: "https://github.com/AriamR/weatherApp",
+    demo:"https://reactportfolio-maira.herokuapp.com/",
+    description:"weather application which uses a third-party api to display weather data by date and location of a city anywhere in the world made with reactjs."
+
+  },{
+    id:5,
     image: IMG3,
     title:"WeatherApp",
     github: "https://github.com/AriamR/weatherApp",
